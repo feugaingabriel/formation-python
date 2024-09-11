@@ -6,3 +6,5 @@
 value = 98
 if value < 70 :
     print("Votre solde est insuffissant")
+
+print("fin")

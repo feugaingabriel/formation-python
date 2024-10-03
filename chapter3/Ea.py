@@ -1,10 +1,12 @@
 # initialisation de la variable
 
-note_user1 = int(input("saisissez votre note compreise entre 0 et 100 \n"))
+note_user = input("saisissez votre note compreise entre 0 et 100 \n")
+
+note_user1 = float(note_user)
+note_user1 = int(note_user1)
+print(note_user1)
 
 
-x = 32.9
-print(int(x))
 
 # validation de la note
 
@@ -24,7 +26,8 @@ else:
     elif note_user1>=50 and note_user1<60:
         print("Mediocre")
     
-    if note_user1 <50:
+    # if note_user1 <50:
+    else:
         print("Echec 😒😒")
     
     
